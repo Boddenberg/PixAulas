@@ -1,0 +1,16 @@
+# Actuator
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# Spring
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ProjetoPix
+
